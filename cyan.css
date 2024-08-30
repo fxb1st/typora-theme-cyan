@@ -12,7 +12,7 @@
 
 html,body {
 	color: #2f363c;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -31,8 +31,10 @@ h2 {
 
 p,
 p > .md-plain {
-	line-height: 1.65rem;
+	line-height: 1.8rem;
 	letter-spacing: 0.05rem;
+	margin: 2rem 0;
+	text-align: justify;
 }
 
 a {
@@ -123,8 +125,8 @@ mark {
 ol, ul {
 	margin: 0;
 }
-ul {
-	list-style-type: square;
+ul li::marker,ol li::marker {
+	color: #16baaa;
 }
 
 pre {
